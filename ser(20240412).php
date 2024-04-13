@@ -1,5 +1,5 @@
-php反序列化漏洞，构造pop链即可
-需要注意的一点就是Modifier的$var是private，提交时将空格替代为%00即可
+// php反序列化漏洞，构造pop链即可
+// 需要注意的一点就是Modifier的$var是private，提交时将空格替代为%00即可
 
 <?php
 class Modifier{
