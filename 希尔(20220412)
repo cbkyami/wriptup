@@ -1,3 +1,8 @@
+原理就是矩阵乘法，求逆矩阵
+解出加密矩阵的逆矩阵即可(np.linalg.inv(encode_matrix))
+还有一点就是ciphertext的精度问题，用round来进行一个四舍五入即可
+
+
 import numpy as np
 from Crypto.Util.number import *
 from gmpy2 import *
